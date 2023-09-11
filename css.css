@@ -1,0 +1,90 @@
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+
+.cantop {
+  margin-top: 40px;
+  color: #fff;
+}
+
+.nenbac {
+  background: #edf0f2;
+  
+}
+
+
+/* MeNU*/
+
+a:hover{
+  text-decoration: underline;
+}
+
+nav.menu ul {
+  background: #EDF0F2;
+  list-style-type: none;
+  
+}
+
+nav.menu a.ad {
+  background: #131313;
+  color: #fff;
+}
+
+
+
+
+nav.menu .sub-menu {
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 2px #999999;
+  position: absolute;
+}
+
+nav.menu li:hover .sub-menu {
+  display: block;
+}
+
+/*-------Menu-Left----------*/
+#menu h3 {
+  background-color: #ff9900 !important;
+  color: #fff;
+  padding-top: .2em;
+  padding-bottom: 0.2em;
+  text-align: center;
+}
+
+#menu {
+  width: 200px;
+  display: block;
+  background: #edf0f2;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#menu li {
+  line-height: 1.6em;
+  height: 2.8em;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #070707;
+  padding: .5em;
+  text-align: left;
+  padding-left: 1em;
+  display: block;
+
+}
+
+#menu a:hover {
+  background: #ff9900;
+  color: #fff;
+}
+
+/* end style menu */
